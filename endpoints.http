@@ -1,4 +1,4 @@
-@baseUrl = http://localhost:6400
+@baseUrl=http://localhost:6400
 
 ### Health
 GET {{baseUrl}}/api/v1/health

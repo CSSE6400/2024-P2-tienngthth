@@ -6,7 +6,7 @@ TODO_1 = {
             "title": "Watch CSSE6400 Lecture",
             "description": "Watch the CSSE6400 lecture on ECHO360 for week 1",
             "completed": True,
-            "deadline_at": "2023-02-27T00:00:00",
+            "deadline_at": (datetime.now() - timedelta(days=2)).strftime("%Y-%m-%dT00:00:00"),
         }
 
 TODO_2 = {
@@ -14,7 +14,7 @@ TODO_2 = {
             "title": "Pass Practical Tests",
             "description": "Pass the practical tests for CSSE6400",
             "completed": False,
-            "deadline_at": "2023-03-01T00:00:00",
+            "deadline_at": (datetime.now() - timedelta(days=4)).strftime("%Y-%m-%dT00:00:00"),
         }
 
 # a todo in 4 days time
